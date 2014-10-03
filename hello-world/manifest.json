@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Dropbox",
+  "version": "0.1",
+  "minimum_chrome_version": "35",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "identity",
+    "http://*.dropbox.com/",
+    "https://*.dropbox.com/"
+  ]
+}
